@@ -1,6 +1,6 @@
 # Learn Terraform Provisioning
 followed tutorial: https://learn.hashicorp.com/tutorials/terraform/packer?in=terraform/provision
-#to run app:
+# to run app:
 1. run `cd instances`
 1. run `terraform init && terraform apply`
 1. connect to instance: `ssh terraform@$(echo "aws_instance.web.public_ip" | terraform console) -i ../tf-packer`
@@ -11,7 +11,7 @@ followed tutorial: https://learn.hashicorp.com/tutorials/terraform/packer?in=ter
 
 
 
-#tutorial instructions:
+# tutorial instructions:
 1. create ssh-key:
 `ssh-keygen -t rsa -C "your_email@example.com" -f ./tf-packer`
 1. build packer image in images:
