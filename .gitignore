@@ -1,2 +1,3 @@
 instances/.terraform/
 .tf-packer
+.tf-packer.pub
